@@ -2,9 +2,8 @@
 <hr />
 
 <?php
- 	init_set('error_reporting','E_STRICT');
-
-	foreach($this->view->$dados as $indice => $valor){
+ 	
+	foreach($this->view->dados as $indice => $valor){
 		echo $valor.'<br/>';
 	}
 ?>
